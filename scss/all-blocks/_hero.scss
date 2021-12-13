@@ -1,0 +1,45 @@
+.hero {
+	&__container {
+		padding-top: 100px;
+		padding-bottom: 117px;
+		background-image: url('../img/hero-img.png');
+		background-repeat: no-repeat;
+		background-position: left ;
+		display: flex;
+		justify-content: flex-end;
+	}
+	&-right {
+		width: 100%;
+		max-width: 570px;
+		&__heading {
+			width: 100%;
+			max-width: 555px;
+			margin: 0;
+			margin-bottom: 27px;
+			font-family: "Lexend";
+			font-weight: normal;
+			font-size: 72px;
+			line-height: 82px;
+			color: #171717;
+		}
+		&__desc {
+			margin: 0;
+			width: 100%;
+			max-width: 570px;
+			margin-bottom: 45px;
+			font-family: "Manrope";
+			font-weight: normal;
+			font-size: 20px;
+			line-height: 32px;	
+			color: #403D3C;
+		}
+	}
+	&--btn::after {
+		margin-left: 18px;
+		display: inline-block;
+		content: url('../img/hero-span.svg');
+		vertical-align: middle;
+		width: 22px;
+		height: 22px;
+	}
+}

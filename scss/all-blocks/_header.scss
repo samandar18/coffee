@@ -1,0 +1,38 @@
+body {
+	background: #ECE0D6;
+}
+.header {
+	padding: 27px 0px 29px;
+	border-bottom: 1px solid #1B1D21;
+	;
+	&__container {
+		width: 100%;
+		max-width: 1404px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&-left {
+		display: flex;
+		align-items: center;
+		&__logo {
+			margin-right: 26px;
+		}
+		&__span {
+			width: 1px;
+			height: 32px;
+			border: 1px solid #1B1D21;
+		}
+	}
+	
+	&-right {
+		display: flex;
+		align-items: center;
+		&__icon:nth-child(1) {
+			margin-right: 48px;
+		}	
+		&__icon:nth-child(2) {
+			margin-right: 16px;
+		}
+	}		
+}

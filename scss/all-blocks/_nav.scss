@@ -1,0 +1,21 @@
+.nav {
+	&__list {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		list-style: none;
+	}
+	&__item {
+		margin-left: 24px;
+	}
+	&__link {
+		font-family: "Manrope";
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 19px;
+		color: #1B1D21;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+}
